@@ -1,10 +1,10 @@
 import urllib
 import webbrowser
-import os #alteration
+import os 
 import time
 
-url = "https://www.codecademy.com/learn/learn-python" #change the addr to target website
-url_1 = "http://www.tutorialspoint.com/python/" #also make sure the http/s/ is correct
+url = "https://www.codecademy.com/learn/learn-python"
+url_1 = "http://www.tutorialspoint.com/python/" 
 url_2 = "https://www.codementor.io/community/topic/python"
 url_3 = "http://www.pythonchallenge.com/"
 url_4 = "https://docs.python.org/3/tutorial/index.html"
@@ -35,8 +35,4 @@ webbrowser.get(chrome_path).open_new(url_6)
 webbrowser.get(chrome_path).open_new(url_7)
 webbrowser.get(chrome_path).open_new(url_8)
 webbrowser.get(chrome_path).open_new(url_9)
-
-"""not sure if needed"""
-""" info about the code """
-
 
